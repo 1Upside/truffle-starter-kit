@@ -9,6 +9,7 @@
     "depcheck": "echo '@chainlink/box' && depcheck --ignore-dirs=build/contracts || true",
     "solhint": "solhint ./contracts/**/*.sol",
     "lint": "yarn solhint",
+    "prettier": "prettier --write 'contracts/**/*.sol'",
     "migrate:dev": "npx truffle migrate --reset --network cldev",
     "migrate:kovan": "npx truffle migrate --network kovan",
     "test": "npx truffle test"
