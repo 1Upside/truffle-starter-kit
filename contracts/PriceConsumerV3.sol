@@ -22,12 +22,11 @@ contract PriceConsumerV3 {
         (
             ,
             /* uint80 roundID */
-            int256 price,
+            int256 price, /* uint startedAt */
             ,
             ,
 
-        ) = /* uint startedAt */
-            /* uint timeStamp */
+        ) = /* uint timeStamp */
             /* uint80 answeredInRound */
             priceFeed.latestRoundData();
         return price;
