@@ -13,6 +13,11 @@
     "MNEMONIC": "${localEnv:MNEMONIC}"
   },
 
+  "remoteEnv": {
+    "RPC_URL": "${localEnv:RPC_URL}",
+    "MNEMONIC": "${localEnv:MNEMONIC}"
+  },
+
   // Set *default* container specific settings.json values on container create.
   "settings": {},
 
